@@ -1,0 +1,35 @@
+body {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+h1, .formulario, .chart {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.formulario {
+    background-color: #6c757d;
+    padding: 1rem;
+    border-radius: 25px;
+    p {
+        font-weight: 700;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart {
+    width: 80%;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #31d2f2;
+    border: none;
+    border-radius: 15px;
+}
